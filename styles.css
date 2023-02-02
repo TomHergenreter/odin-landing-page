@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color:#e5e7eb;
 }
 
 p {
@@ -22,6 +23,7 @@ p {
 ul {
     padding: 0px;
     margin: 0px;
+    list-style: none;
 }
 
 h1 {
@@ -35,8 +37,22 @@ button {
     color: #f9faf8;
 }
 
+/* edge padding */
+.pad-edge {
+    padding: 0 140px;
+}
+
 .header {
+    padding-top: 12px;
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > .links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
 }
 
 .logo {
