@@ -201,6 +201,7 @@ h1.hero-text {
 }
 
 .footer p {
+    font-size: 17px;
     text-align: center;
-    padding: 20px;
+    padding: 42px;
 }
