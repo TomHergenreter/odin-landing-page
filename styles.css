@@ -26,11 +26,12 @@ ul {
     list-style: none;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 
 button {
+    display: block;
     background-color: #3882F6;
     font-size: 16px;
     font-weight: 700;
@@ -164,10 +165,34 @@ h1.hero-text {
 }
 
 /* CTA section styles */
+.call-to-action {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 110px;
     background-color: #3882F6;
     font-size: 18px;
     color: #f9faf8;
+    border-radius: 8px;
+}
+
+.cta-text h3 { 
+    font-size: 24px;
+}
+
+.cta-text p {
+    color: #ddd;
+}
+
+
+.cta-button {
+    border: 2px solid #fff;
+    height: 38px;
 }
 
 .footer {
