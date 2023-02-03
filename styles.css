@@ -1,14 +1,14 @@
 /* Styles for Odin Landing Page */
 
 /* import font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;700;800&display=swap');
 
 /* Resets and Universal Styles*/
 body {
     display: block;
     margin: 0;
     font-family: "Roboto", san-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 a {
@@ -32,20 +32,22 @@ h1 {
 
 button {
     background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 700;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     color: #f9faf8;
-    padding: 8px 40px;
+    padding: 8px 36px;
 }
 
-/* edge padding */
+/* edge padding utility */
 .pad-edge {
-    padding: 0 160px;
+    padding: 0 208px;
 }
 
 /* header styles */
 .header {
-    padding-top: 12px;
+    padding-top: 18px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -54,7 +56,9 @@ button {
 .header > .links {
     display: flex;
     justify-content: flex-end;
-    gap: 12px;
+    align-items: center;
+    gap: 28px;
+    font-size: 18px;
 }
 
 .logo {
@@ -64,27 +68,36 @@ button {
 }
 
 /* hero section styles */
-.hero {
-    padding-top: 140px;
-    padding-bottom: 140px;
+.hero-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #1f2937;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 800;
     color:#f9faf8;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .hero-image {
-    background-color: #e5e7eb;
-    width: 880px;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 200;
+    flex: 1 .5 725px;
 }
 
 .hero p {
     margin: 4px 0 12px 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: #e5e7eb;
+}
+
+.hero h1 {
+    font-size: 48px;
 }
 
 .quote-section {
