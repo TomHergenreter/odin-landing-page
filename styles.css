@@ -80,13 +80,14 @@ button {
 }
 
 .hero-image {
-    background-color: #6d747d;
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     font-weight: 200;
     flex: 1 .5 725px;
+    color: #6d747d;
 }
 
 .hero-text-container p {
