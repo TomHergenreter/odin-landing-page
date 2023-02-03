@@ -33,15 +33,17 @@ h1 {
 button {
     background-color: #3882F6;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     color: #f9faf8;
+    padding: 8px 40px;
 }
 
 /* edge padding */
 .pad-edge {
-    padding: 0 140px;
+    padding: 0 160px;
 }
 
+/* header styles */
 .header {
     padding-top: 12px;
     background-color: #1f2937;
@@ -61,14 +63,25 @@ button {
     color: #f9faf8;
 }
 
+/* hero section styles */
 .hero {
+    padding-top: 140px;
+    padding-bottom: 140px;
     background-color: #1f2937;
-    font-size: 48px;
+    font-size: 26px;
     font-weight: 800;
     color:#f9faf8;
+    display: flex;
+    gap: 30px;
+}
+
+.hero-image {
+    background-color: #e5e7eb;
+    width: 880px;
 }
 
 .hero p {
+    margin: 4px 0 12px 0;
     font-size: 18px;
     font-weight: 400;
     color: #e5e7eb;
